@@ -21,9 +21,6 @@ You can install the dependencies via pip:
 
 ```bash
 pip install pygame torch
-
-Before running the project, ensure you have the following packages installed:
-
 ```
 ## Sources
 https://youtube.com/watch?v=L8ypSXwyBds
