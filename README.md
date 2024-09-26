@@ -16,10 +16,8 @@ Before running the project, ensure you have the following packages installed:
 - Python 3.x
 - Pygame
 - PyTorch
-- NumPy
-- Matplotlib (for plotting results)
 
 You can install the dependencies via pip:
 
 ```bash
-pip install pygame torch numpy matplotlib
+pip install pygame torch
