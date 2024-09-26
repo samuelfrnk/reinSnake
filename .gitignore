@@ -1,0 +1,33 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+logs/
+
+# Virtual environments
+env/
+venv/
+
+# Pygame cache
+*.pygame_cache/
+
+# Data files or model checkpoints
+*.h5
+*.pth
+*.pt
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
