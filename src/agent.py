@@ -85,7 +85,7 @@ class Agent:
     def get_action(self, state):
         self.epsilon = 80 - self.n_games
         final_move = [0,0,0]
-        if random.random(0, 200) < self.epsilon:
+        if random.randint(0, 200) < self.epsilon:
             move = random.randint(0, 2)
             final_move[move] = 1
         else:
@@ -104,9 +104,9 @@ def train():
     game = SnakeGameAI()
     while True:
         state_old = agent.get_state(game)
-        final_move = agent.get_action()
+        final_move = agent.get_action(state_old)
         rewward, done, score = game.play_step(final_move)
-        state_new = agent.get_state()
+        state_new = agent.get_state(game)
         agent.train_short_memory(state_old, final_move, rewward, state_new, done)
         agent.remember(state_old, final_move, rewward, state_new, done)
 
