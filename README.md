@@ -22,6 +22,8 @@ You can install the dependencies via pip:
 ```bash
 pip install pygame 
 pip install torch torchvision
+pip install matplotlib ipython
+
 ```
 ## Sources
 https://youtube.com/watch?v=L8ypSXwyBds
